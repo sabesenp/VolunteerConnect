@@ -1,0 +1,12 @@
+.button-group {
+    display: flex;
+    justify-content: space-between; /* Adjust spacing */
+    gap: 10px; /* Add space between buttons */
+}
+  
+.Upload-button,
+.Complete-button {
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+}

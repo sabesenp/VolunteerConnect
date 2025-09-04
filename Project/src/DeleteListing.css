@@ -1,0 +1,57 @@
+/* DeleteListing.css */
+.delete-listing-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f4f4f800;
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+}
+
+.delete-listing-page h2 {
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.listing-list {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  max-width: 600px;
+}
+
+.listing-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.listing-details {
+  font-size: 1em;
+  color: #333;
+}
+
+.delete-button {
+  padding: 8px 12px;
+  background-color: #e63946;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #d62828;
+}

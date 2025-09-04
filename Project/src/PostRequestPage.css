@@ -1,0 +1,101 @@
+/* General styling for the page */
+.post-request-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f0f4f800;
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+}
+
+/* Page heading */
+.post-request-page h2 {
+  color: #fffdfd;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Success and error messages */
+.post-request-page p {
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.post-request-page p[style*="color: red"] {
+  color: red;
+}
+
+/* Form styling */
+.post-request-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Row layout for Name and Hours */
+.row {
+  display: flex;
+  gap: 15px;
+}
+
+.row > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* Align inputs without misaligning text */
+.row > div > label {
+  font-size: 0.9rem;
+  color: white; /* Make label text white */
+  margin-bottom: 5px;
+  
+}
+
+/* Form inputs */
+.post-request-form input,
+.post-request-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #fafafa;
+}
+
+/* Textarea specific styling */
+.post-request-form textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+/* Button styling */
+.post-request-form button {
+  align-self: center;
+  width: 150px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.post-request-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Focus effect for inputs */
+.post-request-form input:focus,
+.post-request-form textarea:focus {
+  outline: none;
+  border-color: #007bff;
+  background-color: #eef4ff;
+}
